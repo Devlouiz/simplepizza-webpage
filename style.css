@@ -1,0 +1,264 @@
+body{
+  background-color: white;
+  font-family: 'Roboto Condensed',sans-serif;
+}
+
+.navbar-custom{
+  background-color: #053045;
+  border-bottom: solid 3px #c94b10;
+  padding: 10px 0 10px 0;
+  margin-bottom: 0px;
+}
+
+a{
+  color: rgb(235, 221, 221);}
+a:hover{
+  color: black;
+}
+
+#logo{
+  float: left;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px){
+  .navbar-brand{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: -50px;
+  }
+  .navbar-collapse{
+    text-align: center;
+  }
+  section.firstsection{
+    background-position: center;
+  }
+  svg{
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.navbar-custom .navbar-toggle .icon-bar{
+  border: 1px solid rgb(197, 185, 185);
+}
+
+section.firstsection{
+  width: 88%;
+  margin: auto;
+  height: 500px;
+  margin-top: 100px;
+  background-image: url("pizzacover.jpg"); /*url("https://pixabay.com/get/54e8d5414951ae14ead98374c02c327b1522dfe05a56784b702d7fd7.jpg");*/
+  background-repeat: no-repeat 0 -100px;
+  background-size: cover;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #053045;
+}
+
+#diffont{
+  font-family: 'Satisfy',cursive;
+  font-style: italic;
+  font-size: 100px;
+}
+
+#orderbtn{
+  float: right;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #053045;
+  color: #e9edda;
+  border: 1px solid #053045;}
+#orderbtn:hover{
+  color: #053045;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 768px){
+ .cont{
+   display: flex;
+   text-align: center;
+ }
+}
+.firsttempcontainer{
+  width: 400px;
+  height: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.firsttempcontainer img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.cont{
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+/* svg animation*/
+
+div.svg{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;;
+}
+
+#firsthand{
+  animation: arm 4s ease infinite;
+  transform-origin: right center bottom;
+  transform-box: fill-box;
+}
+
+@keyframes arm {
+  from{
+    transform:rotatez(0deg);
+  }
+  to{
+    transform:rotatez(-40deg);
+  }
+}
+
+#firsthanb{
+  animation: hanb 4s infinite;
+  transform-origin: right center bottom;
+  transform-box: fill-box;
+  animation-timing-function: ease;
+}
+
+@keyframes hanb {
+  from{
+    transform:rotatez(0deg);
+  }
+  to{
+    transform:rotatez(-20deg);
+  }
+}
+
+#firstpiz{
+  animation: firstpiz 4s ease infinite;
+  transform-origin: left top;
+  transform-box: fill-box;
+}
+
+@keyframes firstpiz {
+  from{
+    transform:rotateZ(0deg);
+  }
+  to{
+    transform:rotateZ(-130deg);
+  }
+}
+
+#thirdhand{
+  animation: thirdhand 4s infinite ;
+  transform-origin: right top;
+  transform-box: fill-box;
+  animation-timing-function: ease;
+}
+
+@keyframes thirdhand{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(30deg);
+  }
+}
+
+footer{
+  background-color: #053045;
+  border-top: 3px solid #c94b10;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+ul.infoul{
+  margin-left: -23px;
+  margin-top: 5px;
+  font-size: 2rem;
+}
+
+ul.mediaul{
+  float: right;
+  margin-right: 13px;
+  margin-top: -29px;
+}
+
+li.info a{
+  color: rgb(197, 185, 185);
+  margin-left: 5px;}
+  li.info a:hover{
+    text-decoration: none;
+    color: grey;
+  }
+
+i{
+  margin-right: 5px;
+  color: rgb(197, 185, 185);
+  font-size: 20px;}
+  i:hover{
+    color: grey;
+  }
+
+
+p.EPfooter{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(197, 185, 185);
+}
+#creator{
+  font-size: 17px;
+  text-align: center;
+  color: rgb(197, 185, 185);
+}
+
+/*ul{
+  list-style: none;
+}
+
+ul.infoul{
+  display: flex;
+}
+
+ul.mediaul{
+  margin-top: -37px;
+}
+
+li.info a{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  padding-left: 7px;
+}
+
+li.social-media{
+  list-style: none;
+  float: right;
+  font-size: 25px;
+  padding-right: 7px;
+}
+i{
+  color: grey;}
+  i:hover{
+    color: black;
+  }
+
+p.EPfooter{
+  text-align: center;
+}*/
