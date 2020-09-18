@@ -8,6 +8,7 @@ body{
   border-bottom: solid 3px #c94b10;
   padding: 10px 0 10px 0;
   margin-bottom: 0px;
+  z-index: 1;
 }
 
 a{
@@ -115,12 +116,12 @@ section.firstsection{
 
 div.svg{
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 #firsthand{
-  animation: arm 4s ease infinite;
+  animation: arm 2s ease infinite alternate;
   transform-origin: right center bottom;
   transform-box: fill-box;
 }
@@ -135,7 +136,7 @@ div.svg{
 }
 
 #firsthanb{
-  animation: hanb 4s infinite;
+  animation: hanb 2s infinite alternate;
   transform-origin: right center bottom;
   transform-box: fill-box;
   animation-timing-function: ease;
@@ -151,7 +152,7 @@ div.svg{
 }
 
 #firstpiz{
-  animation: firstpiz 4s ease infinite;
+  animation: firstpiz 2s ease infinite alternate;
   transform-origin: left top;
   transform-box: fill-box;
 }
@@ -166,7 +167,7 @@ div.svg{
 }
 
 #thirdhand{
-  animation: thirdhand 4s infinite ;
+  animation: thirdhand 2s infinite alternate;
   transform-origin: right top;
   transform-box: fill-box;
   animation-timing-function: ease;
