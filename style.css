@@ -52,10 +52,10 @@ a:hover{
 }
 
 section.firstsection{
-  width: 88%;
+  width: 100%;
   margin: auto;
   height: 500px;
-  margin-top: 5px;
+  margin-top: 0px;
   background-image: url("pizzacover.jpg"); /*url("https://pixabay.com/get/54e8d5414951ae14ead98374c02c327b1522dfe05a56784b702d7fd7.jpg");*/
   background-repeat: no-repeat 0 -100px;
   background-size: cover;
@@ -115,8 +115,8 @@ section.firstsection{
 
 div.svg{
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #firsthand{
